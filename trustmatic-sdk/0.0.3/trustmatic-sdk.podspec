@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                    = "trustmatic-sdk"
-  spec.version                 = "0.0.1"
+  spec.version                 = "0.0.3"
   spec.summary                 = "Face and document capturing."
   spec.description             = "Face and document capturing library."
   spec.homepage                = "https://trustmatic.io/"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.swift_version           = "5.6"
   spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-  spec.source                  = { :http => "https://storage.googleapis.com/trust-test/TrustmaticSDK.xcframework.zip" }
+  spec.source                  = { :http => "https://storage.googleapis.com/trust-test/TrustmaticSDK-0.0.3.xcframework.zip" }
   spec.vendored_frameworks     = "TrustmaticSDK.xcframework"
   spec.ios.dependency  'dot-document'
   spec.ios.dependency  'dot-face-core'

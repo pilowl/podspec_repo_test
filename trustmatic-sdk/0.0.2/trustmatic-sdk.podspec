@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                    = "trustmatic-sdk"
-  spec.version                 = "0.0.1"
+  spec.version                 = "0.0.2"
   spec.summary                 = "Face and document capturing."
   spec.description             = "Face and document capturing library."
   spec.homepage                = "https://trustmatic.io/"
