@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.swift_version           = "5.6"
   spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  spec.source                  = { :http => "https://storage.googleapis.com/trust-test/TrustmaticSDK.xcframework.zip" }
   spec.vendored_frameworks     = "TrustmaticSDK.xcframework"
 end
